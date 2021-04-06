@@ -70,6 +70,7 @@ def draw(point1, point2):
 
     pygame.draw.line(screen, BLUE, offset,(x1,y1), 5)
     pygame.draw.line(screen, BLUE, (x1,y1),(x2,y2), 5)
+    pygame.draw.circle(screen, BLUE, offset, 4)
     pygame.draw.circle(screen, BLUE, (x1,y1), m1*scale)
     pygame.draw.circle(screen, BLUE, (x2,y2), m2*scale)
 
